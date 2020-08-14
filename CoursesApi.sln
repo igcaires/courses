@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursesApi", "CoursesApi\CoursesApi.csproj", "{64228CA5-ACF4-4845-A64D-4C782346F5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursesApi", "CoursesApi\CoursesApi.csproj", "{64228CA5-ACF4-4845-A64D-4C782346F5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursesApiTest", "CoursesApiTest\CoursesApiTest.csproj", "{E0AEE08C-30B7-4282-833D-5929E841A591}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09D6B105-0F51-46DE-9AFF-D941E5813C8D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,6 @@ Global
 		{64228CA5-ACF4-4845-A64D-4C782346F5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64228CA5-ACF4-4845-A64D-4C782346F5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64228CA5-ACF4-4845-A64D-4C782346F5B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0AEE08C-30B7-4282-833D-5929E841A591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0AEE08C-30B7-4282-833D-5929E841A591}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0AEE08C-30B7-4282-833D-5929E841A591}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0AEE08C-30B7-4282-833D-5929E841A591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
