@@ -24,4 +24,3 @@ C:\Projetos\CoursesApi\CoursesApi\bin\Debug\netcoreapp2.1\netcoreapp2.1\CoursesA
 C:\Projetos\CoursesApi\CoursesApi\bin\Debug\netcoreapp2.1\netcoreapp2.1\CoursesApi.dll
 C:\Projetos\CoursesApi\CoursesApi\bin\Debug\netcoreapp2.1\netcoreapp2.1\CoursesApi.pdb
 C:\Projetos\CoursesApi\CoursesApi\bin\Debug\netcoreapp2.1\netcoreapp2.1\CoursesApi.xml
-C:\Projetos\CoursesApi\CoursesApi\obj\Debug\netcoreapp2.1\CoursesApi.csproj.CoreCompileInputs.cache
