@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoursesApi</name>
+    </assembly>
+    <members>
+        <member name="M:CoursesApi.Controllers.CoursesController.GetCourses">
+            <summary>
+            Busca todos os cursos
+            </summary>       
+            <returns>Lista de objetos contendo dados do curso</returns>
+        </member>
+        <member name="M:CoursesApi.Controllers.CoursesController.GetCourse(System.Int32)">
+            <summary>
+            Busca um curso especifico.
+            </summary>
+            <param name="id">id do curso</param>
+            <returns>Objeto Curso de acordo com o Id</returns>
+        </member>
+        <member name="M:CoursesApi.Controllers.CoursesController.PutCourse(System.Int32,CoursesApi.Models.Course)">
+            <summary>
+            Altera determinado curso.
+            </summary>
+            <param name="id">id do curso</param>
+            <param name="course">Objeto Curso</param>
+            <returns>Retorna 204 em caso de sucesso</returns>
+        </member>
+        <member name="M:CoursesApi.Controllers.CoursesController.PostCourse(CoursesApi.Models.Course)">
+            <summary>
+            Insere um novo curso.
+            </summary>
+            <param name="course">Objeto Curso</param>
+            <returns>Retorna o Curso inserido com o novo Id</returns>
+        </member>
+        <member name="M:CoursesApi.Controllers.CoursesController.DeleteCourse(System.Int32)">
+            <summary>
+            Remove o curso.
+            </summary>
+            <param name="id">Id do curso para remover</param>
+            <returns>Status 200 com o curso removido</returns>
+        </member>
+    </members>
+</doc>
